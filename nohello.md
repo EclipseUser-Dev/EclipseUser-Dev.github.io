@@ -16,3 +16,5 @@ Here are some tips for effective chat communication:
 - Use links to provide additional information or context.
 
 By following these tips, you can help ensure that your chat conversations are productive and efficient.
+
+\> [Back](/)
