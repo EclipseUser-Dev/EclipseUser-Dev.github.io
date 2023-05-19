@@ -17,4 +17,4 @@ Here are some tips for effective chat communication:
 
 By following these tips, you can help ensure that your chat conversations are productive and efficient.
 
-\> [Back](/)
+> [Back](https://eclipseuser.xyz/)
