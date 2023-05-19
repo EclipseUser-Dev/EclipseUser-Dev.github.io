@@ -3,7 +3,6 @@ layout: default
 title: "home page"
 permalink: /
 ---
-
 # Welcome
 Hi! Welcome to my site. My name's Eclipse.
 
