@@ -1,5 +1,6 @@
 title: Eclipse's Site
 description: Just a little site I own.
 remote_theme: pages-themes/slate@v0.2.0
+url: "https://eclipseuser.xyz/"
 plugins:
 - jekyll-remote-theme
