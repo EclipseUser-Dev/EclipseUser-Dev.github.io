@@ -1,10 +1,13 @@
 ---
 layout: default
-title: "home page"
+title: "Home"
 permalink: /
 ---
 # Welcome
 Hi! Welcome to my site! My name's Eclipse.
+
+## No-Hello
+Read this: [NoHello](./nohello)
 
 ## About
 Im just a guy that likes to code and play games.
