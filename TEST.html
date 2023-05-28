@@ -1,0 +1,84 @@
+---
+layout: default
+title: "test"
+permalink: /tesst
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YOUR IP HAS BEEN GRABBED</title>
+  <style>
+    body {
+      background: #000;
+      overflow: hidden;
+    }
+
+    #container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #frame {
+      position: relative;
+      width: 400px;
+      height: 300px;
+      background: #000;
+      border: 5px solid #0f0;
+    }
+
+    #text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: monospace;
+      color: #0f0;
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="frame"></div>
+    <p id="text">IP RECIEVED. THANK YOU FOR YOUR COOPERATION.</p>
+  </div>
+
+  <script>
+    var container = document.getElementById('container');
+    var frame = document.getElementById('frame');
+    var text = document.getElementById('text');
+
+    function getRandomValue(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+
+    function randomizePosition() {
+      var viewportWidth = window.innerWidth;
+      var viewportHeight = window.innerHeight;
+
+      var containerWidth = container.offsetWidth;
+      var containerHeight = container.offsetHeight;
+
+      var frameWidth = frame.offsetWidth;
+      var frameHeight = frame.offsetHeight;
+
+      var randomContainerX = getRandomValue(0, viewportWidth - containerWidth);
+      var randomContainerY = getRandomValue(0, viewportHeight - containerHeight);
+
+      var randomFrameX = getRandomValue(0, containerWidth - frameWidth);
+      var randomFrameY = getRandomValue(0, containerHeight - frameHeight);
+
+      container.style.left = randomContainerX + 'px';
+      container.style.top = randomContainerY + 'px';
+
+      frame.style.left = randomFrameX + 'px';
+      frame.style.top = randomFrameY + 'px';
+    }
+
+    setInterval(randomizePosition, 250);
+  </script>
+</body>
+</html>
