@@ -18,4 +18,4 @@ Here are the games I like to play: Minecraft, Roblox, Team Fortress 2, ULTRAKILL
 I'm a dev at Polaris-Nav, not officially though. I'm just helping by adding some features here and there... Here's a link to the [Discord](https://discord.gg/sM9k9uaQvq).
 
 ## Contact
-Discord: EclipseDev#0813
+Discord: eclipseuser.xyz

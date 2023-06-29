@@ -5,4 +5,4 @@ permalink: discord
 ---
 # My Discord Username
 
-Here's my Discord account Username: EclipseDev#0813, feel free to add me~
+Here's my Discord account Username: eclipseuser.xyz, feel free to add me~
